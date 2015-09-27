@@ -12,7 +12,7 @@ The files in the repository that you need are:
 * ESP8266_0x00000.bin
 * ESP8266_0x10000.bin
 
-These are available as direct download as well as included in the ZIP file.  If you are downloading
+These are available as direct download as well as included in the [ZIP](Espruino_ESP8266_Binaries.zip) file.  If you are downloading
 directly from GitHub I recommend the ZIP as reports are coming in that if you try and download
 binaries directly from the web page (as opposed to checking them out from a repository), data
 can be corrupted.
