@@ -1,5 +1,6 @@
 # ESP8266 Espruino binaries
-This folder contains binaries for Espruino running on the ESP8266.  The build version will be as of the date of the files in Github.
+This folder contains binaries for Espruino running on the ESP8266.  The build version will be as of the
+date of the files in Github.
 
 The command to flash the device is:
 
@@ -16,6 +17,12 @@ These are available as direct download as well as included in the [ZIP](espruino
 directly from GitHub I recommend the ZIP as reports are coming in that if you try and download
 binaries directly from the web page (as opposed to checking them out from a repository), data
 can be corrupted.
+
+If you are unsure what version you are, use the JavaScript statement `process.env`.  Included in 
+its output will be two properties of value:
+
+* `BUILD_DATE` - The date of compilation of the binary.
+* `BUILD_TIME` - The time of compilation of the binary.
 
 ----
 
