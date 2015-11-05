@@ -34,6 +34,14 @@ Documentation on the `esptool` itself can be found [here](https://github.com/igr
 
 ----
 
+##Espruino specific documentation for the ESP8266
+
+Documentation on ESP8266 specific Espruino classes and functions can currently be found here:
+
+[https://github.com/espruino/Espruino/blob/master/targets/esp8266/docs/05-User_Guide.md](https://github.com/espruino/Espruino/blob/master/targets/esp8266/docs/05-User_Guide.md)
+
+----
+
 ##ESP8266 Community and ESP8266 docs
 The ESP8266 has its own dedicated community that discusses operation and programming of the
 ESP8266 itself.   Since the ESP8266 has its own technologies, stories, practices and gossip ... it doesn't make sense to try and repeat those here within Espruino land.  Instead, the ESP8266 user should look to the ESP8266 community for ESP8266 specific questions.
