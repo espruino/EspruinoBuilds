@@ -64,3 +64,13 @@ Here are some YouTube videos on ESP8266 flashing:
 * [ESP8266 - Getting started and connected](https://www.youtube.com/watch?v=z07zjfOHb8E)
 * [Reprogramming the ESP8266 Flash](https://www.youtube.com/watch?v=cOnPWltYtQs)
 * [Flash ESP8266 Firmware using esptool.py](https://www.youtube.com/watch?v=PycRnjcXMRI)
+
+----
+
+##Technical state
+
+One of the key consideration for ESP8266 execution is the relatively tight amount of RAM available to the devices.  One of the methods available on an ESP8266 is `ESP8266.getState()` which returns, amongst other things, the amount of raw heap size available.  We want to record this here to see if we are heading the right direction in terms of usable RAM.
+
+| Date     | Amount |
+|----------|--------|
+|2015-11-05|5616    |
