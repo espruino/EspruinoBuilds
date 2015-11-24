@@ -4,14 +4,15 @@ date of the files in Github.
 
 The command to flash the device is:
 
-    esptool -bm qio -bz 512K -bf 40 -cp COM14 -cb 115200 -cd nodemcu -ca 0x00000 -cf espruino_esp8266_board_0x00000.bin -ca 0x10000 -cf espruino_esp8266_board_0x10000.bin
+    esptool -bm qio -bz 512K -bf 40 -cp COM14 -cb 115200 -cd nodemcu -ca 0x00000 -cf "boot_v1.4(b1).bin" -ca 0x1000 -cf espruino_esp8266_user1.bin -ca 0x7E000 blank.bin
 
 Make sure to change the COM port to match your own.  The COM port is supplied with the `-cp` flag parameter.
 
 The files in the repository that you need are:
 
-* espruino_esp8266_board_0x00000.bin
-* espruino_esp8266_board_0x10000.bin
+* `espruino_esp8266_user1.bin`
+* `boot_v1.4(b1).bin`
+* `blank.bin`
 
 These are available as direct download as well as included in the [ZIP](espruino_esp8266_board_binaries.zip) file.  If you are downloading
 directly from GitHub I recommend the ZIP as reports are coming in that if you try and download
@@ -74,3 +75,4 @@ One of the key consideration for ESP8266 execution is the relatively tight amoun
 | Date     | Amount |
 |----------|--------|
 |2015-11-05|5616    |
+|2015-11-24|13240   |
