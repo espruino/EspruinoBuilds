@@ -4,7 +4,7 @@ date of the files in Github.
 
 The command to flash the device is:
 
-    esptool -bm qio -bz 512K -bf 40 -cp COM14 -cb 115200 -cd nodemcu -ca 0x00000 -cf "boot_v1.4(b1).bin" -ca 0x1000 -cf espruino_esp8266_user1.bin -ca 0x7E000 blank.bin
+    esptool -bm qio -bz 512K -bf 40 -cp COM14 -cb 115200 -cd nodemcu -ca 0x00000 -cf "boot_v1.4(b1).bin" -ca 0x1000 -cf espruino_esp8266_user1.bin -ca 0x7E000 -cf blank.bin
 
 Make sure to change the COM port to match your own.  The COM port is supplied with the `-cp` flag parameter.
 
