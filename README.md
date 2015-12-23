@@ -1,3 +1,9 @@
+# This repo is stale!
+
+__For the latest esp8266 Espruino build please see this [forum thread](http://forum.espruino.com/conversations/279176/newest/)__
+
+
+
 # Espruino Builds
 Espruino Binaries for in-development platforms
 
