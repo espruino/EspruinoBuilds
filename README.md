@@ -1,14 +1,7 @@
-# This repo is stale!
+# ESP8266 nuilds have moved!
 
-__For the latest esp8266 Espruino build please see this [forum thread](http://forum.espruino.com/conversations/279176/newest/)__
+They're now distributed along with builds for all the other Espruino boards.
+
+__Please see [espruino.com/EspruinoESP8266](http://www.espruino.com/EspruinoESP8266)__
 
 
-
-# Espruino Builds
-Espruino Binaries for in-development platforms
-
-* Builds for Espruino running on [ESP8266](ESP8266/README.md)
-
-Please do **not** create issues here on any problems found.  This repository is merely to host binary distribution.
-
-Issues on Espruino should be raised at the [Espruino Issues](https://github.com/espruino/Espruino/issues) section within the [Espruino Repository](https://github.com/espruino/Espruino).
