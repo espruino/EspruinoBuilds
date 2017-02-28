@@ -1,4 +1,4 @@
-# ESP8266 nuilds have moved!
+# ESP8266 builds have moved!
 
 They're now distributed along with builds for all the other Espruino boards.
 
